@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "aula10",
+			"path": "."
+		},
+		{
+			"path": "..\\aula19"
+		},
+		{
+			"path": "..\\aula20"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aula10"
+	}
+}
