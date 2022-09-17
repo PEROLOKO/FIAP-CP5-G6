@@ -15,7 +15,14 @@ import lanche11 from "./assets/img/lanche11.jpg";
 import lanche12 from "./assets/img/lanche12.jpg";
 
 const DivProduto = styled.div`
-    // css
+    .produto{ /* .classe */
+        width:250px;
+        height:300px;
+        background-color:#FFC72C;
+        margin:0px 0px 20px 20px;
+        padding: 10px;
+        float:left;
+    }
 `
 
 const Produto = props => {
@@ -49,7 +56,9 @@ const Produto = props => {
 
     return (
         <DivProduto>
-            <img src={imagem}/>
+            <div className="produto">
+                <img src={imagem} width="100%" height="230px"/>
+            </div>
         </DivProduto>
     )
 }
